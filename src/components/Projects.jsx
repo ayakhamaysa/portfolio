@@ -11,7 +11,7 @@ export default function Projects() {
             <h3 className="text-xl font-semibold">{project.title}</h3>
             <p className="text-gray-600 mt-2">{project.description}</p>
 
-            <div className="flex gap-2 mt-4">
+            <div className="flex flex-wrap gap-2 mt-4">
               {project.tech.map((t) => (
                 <span key={t} className="text-sm bg-gray-100 px-3 py-1 rounded-full">
                   {t}
@@ -20,8 +20,12 @@ export default function Projects() {
             </div>
 
             <div className="flex gap-4 mt-6 text-emerald-600 font-medium">
-              <a href={project.live} target="_blank">Live</a>
-              <a href={project.github} target="_blank">Code</a>
+              {project.live && (
+                <a href={project.live} target="_blank">Live</a>
+              )}
+              {project.github && (
+                <a href={project.github} target="_blank">Code</a>
+              )}
             </div>
           </div>
         ))}

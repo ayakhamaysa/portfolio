@@ -1,16 +1,10 @@
 export const projects = [
   {
-    title: "Restaurant Menu",
-    description: "Interactive menu with WhatsApp ordering.",
-    tech: ["React", "Tailwind"],
-    live: "#",
-    github: "#",
-  },
-  {
-    title: "Clinic Booking",
-    description: "Book a doctor's appointment online.",
-    tech: ["React", "Tailwind"],
-    live: "#",
-    github: "#",
+    title: "Glossy (Client Project)",
+    description:
+      "A live makeup and skincare store built for a real client. Product variants with separate stock, automatic SOLD OUT, delivery fees by region, and an admin dashboard for products and orders.",
+    tech: ["JavaScript", "Supabase", "PostgreSQL", "Netlify"],
+    live: "https://glossybyn.netlify.app/",
+    github: "",
   },
 ];
