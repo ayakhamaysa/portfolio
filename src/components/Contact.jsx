@@ -6,7 +6,8 @@ export default function Contact() {
 
       <div className="flex flex-wrap gap-4">
         <a
-          href="mailto:ayakhamaysa123@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=ayakhamaysa123@gmail.com"
+          target="_blank"
           className="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700"
         >
           Email me
@@ -19,13 +20,6 @@ export default function Contact() {
           GitHub
         </a>
       </div>
-
-      <p className="text-gray-600 mt-6">
-        Or write to me directly:{" "}
-        <span className="font-medium text-gray-900 select-all">
-          ayakhamaysa123@gmail.com
-        </span>
-      </p>
     </section>
   );
 }
