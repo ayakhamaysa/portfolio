@@ -19,6 +19,13 @@ export default function Contact() {
           GitHub
         </a>
       </div>
+
+      <p className="text-gray-600 mt-6">
+        Or write to me directly:{" "}
+        <span className="font-medium text-gray-900 select-all">
+          ayakhamaysa123@gmail.com
+        </span>
+      </p>
     </section>
   );
 }
