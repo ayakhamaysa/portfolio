@@ -26,6 +26,7 @@ export const projects = [
     tech: ["React", "Formspree", "Framer Motion"],
     image: "/projects/clinic.webp",
     focus: "object-right-top",
+    github: "https://github.com/ayakhamaysa/dental-clinic",
     live: "https://dental-clinic-tau-fawn.vercel.app",
   },
   {
@@ -37,6 +38,7 @@ export const projects = [
       "An Arabic digital menu for a Neapolitan pizzeria, with category tabs and every item and price loaded from one data file.",
     tech: ["React", "Tailwind CSS", "Vercel"],
     image: "/projects/pizzeria-450.webp",
+    github: "https://github.com/ayakhamaysa/restaurant-450-menu",
     live: "https://pizzeria-450.vercel.app",
   },
   {
@@ -48,6 +50,7 @@ export const projects = [
       "Customers order from the table by QR code, the kitchen sees orders live, and the cashier settles the bill. Staff login and secure database rules.",
     tech: ["React", "Supabase", "PostgreSQL", "Realtime"],
     image: "/projects/pizzeria-450-system.webp",
+    github: "https://github.com/ayakhamaysa/restaurant-450-system",
     live: "https://pizzeria-450-system.vercel.app",
   },
   {
@@ -70,6 +73,7 @@ export const projects = [
     description: "An Arabic perfume store with product details, a cart drawer and a checkout that sends the order to the shop.",
     tech: ["React", "Tailwind CSS"],
     image: "/projects/ejt.webp",
+    github: "https://github.com/ayakhamaysa/ejt-perfume",
     live: "https://ejt-perfume.vercel.app",
   },
   {
@@ -80,6 +84,7 @@ export const projects = [
     description: "A chalet rental page with a scroll-driven sunset hero, a villa gallery with prices, and WhatsApp booking.",
     tech: ["React", "GSAP", "ScrollTrigger"],
     image: "/projects/jericho-forests.webp",
+    github: "https://github.com/ayakhamaysa/jericho-forests",
     live: "https://jericho-forests.vercel.app",
   },
   {
@@ -90,6 +95,7 @@ export const projects = [
     description: "A bilingual Arabic / English salon page with one-click RTL ↔ LTR switching and animated SVG hair.",
     tech: ["React", "Framer Motion", "RTL / i18n"],
     image: "/projects/oday-shami.webp",
+    github: "https://github.com/ayakhamaysa/beauty-salon",
     live: "https://hair-salon-nine-hazel.vercel.app",
   },
   {
@@ -101,6 +107,7 @@ export const projects = [
       "A coffee shop page with soft motion: a word-by-word hero, a floating mascot, scroll reveals and a menu filtered by category.",
     tech: ["React", "Framer Motion", "Tailwind CSS"],
     image: "/projects/alatareeq.webp",
+    github: "https://github.com/ayakhamaysa/alatareeq",
     live: "https://altareeq-iota.vercel.app",
   },
 ];
