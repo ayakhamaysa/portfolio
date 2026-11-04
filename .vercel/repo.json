@@ -1,0 +1,11 @@
+{
+  "remoteName": "origin",
+  "projects": [
+    {
+      "id": "prj_SotLreyS37rw9ynlBLmZcFcZDxqr",
+      "name": "aya-dev",
+      "directory": ".",
+      "orgId": "team_DQSr9ophcVGIyuXdHFW6sJBM"
+    }
+  ]
+}

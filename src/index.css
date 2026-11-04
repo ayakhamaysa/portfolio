@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+/* Colors and fonts used everywhere (bg-paper, text-gold, font-serif ...) */
+@theme {
+  --color-paper: #f7f3ee; /* page background */
+  --color-sand: #efeae3; /* cards */
+  --color-ink: #141414; /* text */
+  --color-muted: #5f5a54; /* soft text */
+  --color-gold: #c8a24a; /* accent on dark backgrounds */
+  --color-gold-deep: #8a6a1f; /* accent text on light backgrounds */
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* When a menu link jumps to a section, stop below the sticky navbar */
+section {
+  scroll-margin-top: 4rem;
+}
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+/* Small uppercase labels like "01 / PORTFOLIO INDEX" */
+.label {
+  @apply text-[11px] font-semibold uppercase tracking-[0.22em];
+}
+
+/* Skills strip that slides forever (the list is doubled, so -50% loops smoothly) */
+.marquee {
+  animation: marquee 30s linear infinite;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+}
