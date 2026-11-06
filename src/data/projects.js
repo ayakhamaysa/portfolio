@@ -29,15 +29,15 @@ export const projects = [
     github: "https://github.com/ayakhamaysa/dental-clinic",
     live: "https://dental-clinic-tau-fawn.vercel.app",
   },
-      {
-    title: "MediCare – Clinic Booking System",
+  {
+    title: "MediCare — Clinic Booking System",
     badge: "Personal project",
-    category: "Healthcare",
-    size: "row",
-    description: "A clinic appointment booking system: patients book from available time slots, and a secure doctor dashboard manages working hours, appointment length and bookings.",
-    tech: ["Next.js", "TypeScript", "Cloudflare D1"],
+    category: "Healthcare · Booking",
+    size: "large",
+    description: "An Arabic clinic appointment booking system with a patient booking page and a secure doctor dashboard. Patients pick a date and see only the free time slots; the doctor sets working days, opening hours and appointment length, and manages upcoming bookings by date. Data is stored in a Cloudflare D1 SQL database, and doctor login is protected with secret credentials and a session cookie.",
+    tech: ["Next.js", "TypeScript", "Cloudflare D1", "Cloudflare Workers", "RTL"],
     image: "/projects/medicare.webp",
-    github: "",
+    github: "https://github.com/ayakhamaysa/MediCare-Clinic-Appointment-System",
     live: "https://aya-medicare.vercel.app",
   },
   {
