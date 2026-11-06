@@ -33,7 +33,7 @@ export const projects = [
     title: "MediCare – Clinic Booking System",
     badge: "Personal project",
     category: "Healthcare",
-    size: "small",
+    size: "row",
     description: "A clinic appointment booking system: patients book from available time slots, and a secure doctor dashboard manages working hours, appointment length and bookings.",
     tech: ["Next.js", "TypeScript", "Cloudflare D1"],
     image: "/projects/medicare.webp",
