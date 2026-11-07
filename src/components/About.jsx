@@ -1,9 +1,10 @@
+import { projects } from "../data/projects";
 import Reveal from "./Reveal";
 
 const numbers = [
-  { value: "10", title: "Live projects", text: "From a client store to booking and AI-powered systems." },
+  { value: String(projects.length), title: "Live projects", text: "From a client store to booking and AI-powered systems." },
   { value: "2", title: "Languages", text: "Arabic and English, right-to-left and left-to-right." },
-  { value: "6", title: "Industries", text: "Retail, healthcare, restaurants, cafés, beauty, hospitality." },
+  { value: "8", title: "Industries", text: "Retail, healthcare, restaurants, cafés, beauty, hospitality, real estate, fitness." },
   { value: "Mobile", title: "First", text: "Every page is designed for phones first." },
 ];
 

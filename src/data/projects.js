@@ -74,6 +74,7 @@ export const projects = [
       "A bilingual premium gym website with an AI coach. The coach asks one question at a time (goal, level, schedule), suggests classes from the real timetable and returns a structured booking that the page turns into a ticket with WhatsApp confirm. Safety rules send injuries and medical questions to a doctor or a human coach.",
     tech: ["React", "Gemini API", "Prompt design", "Structured output", "Framer Motion"],
     image: "/projects/apex.webp",
+    focus: "object-left-top",
     github: "https://github.com/ayakhamaysa/apex-gym",
     live: "https://apex-six-jet.vercel.app",
   },
