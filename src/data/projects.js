@@ -74,7 +74,6 @@ export const projects = [
       "A bilingual premium gym website with an AI coach. The coach asks one question at a time (goal, level, schedule), suggests classes from the real timetable and returns a structured booking that the page turns into a ticket with WhatsApp confirm. Safety rules send injuries and medical questions to a doctor or a human coach.",
     tech: ["React", "Gemini API", "Prompt design", "Structured output", "Framer Motion"],
     image: "/projects/apex.webp",
-    focus: "object-left-top",
     github: "https://github.com/ayakhamaysa/apex-gym",
     live: "https://apex-six-jet.vercel.app",
   },
@@ -89,6 +88,18 @@ export const projects = [
     image: "/projects/maskan.webp",
     github: "https://github.com/ayakhamaysa/maskan-real-estate",
     live: "https://maskan-real-estate.vercel.app",
+  },
+  {
+    title: "AURA ONE — 3D Product Launch",
+    badge: "Personal project",
+    category: "Electronics · 3D",
+    size: "row",
+    description:
+      "A premium launch page for wireless headphones, built around a real-time 3D model. As you scroll, the headphones glide and turn to show each feature, you can spin them by dragging, and picking a finish recolors the body live while the speaker cloth stays dark, drawn pixel by pixel in a custom shader. Bilingual English / Arabic.",
+    tech: ["React Three Fiber", "Three.js", "GLSL shaders", "Framer Motion", "RTL / i18n"],
+    image: "/projects/aura.webp",
+    github: "https://github.com/ayakhamaysa/aura-headphones",
+    live: "https://aura-headphones-nu.vercel.app",
   },
   {
     title: "EJT Perfume Store",
