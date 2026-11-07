@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 const numbers = [
   { value: String(projects.length), title: "Live projects", text: "From a client store to booking and AI-powered systems." },
   { value: "2", title: "Languages", text: "Arabic and English, right-to-left and left-to-right." },
-  { value: "8", title: "Industries", text: "Retail, healthcare, restaurants, cafés, beauty, hospitality, real estate, fitness." },
+  { value: "9", title: "Industries", text: "Retail, healthcare, restaurants, cafés, beauty, hospitality, real estate, fitness, electronics." },
   { value: "Mobile", title: "First", text: "Every page is designed for phones first." },
 ];
 
