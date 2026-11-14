@@ -102,6 +102,42 @@ export const projects = [
     live: "https://aura-headphones-nu.vercel.app",
   },
   {
+    title: "NOCTA VELA — 3D Electric Car Configurator",
+    badge: "Personal project",
+    category: "Automotive · 3D",
+    size: "row",
+    description:
+      "A cinematic launch page for an electric grand tourer. Scrolling moves a film camera around a real-time 3D car: side profile, the light signature at night, a low rear shot, and the cabin with butterfly doors opening. A live configurator changes paint, wheels, calipers and interior with the price updating instantly, then sends the build by WhatsApp. Dark / light showroom, and the model was compressed from 11.8 MB to 3.3 MB.",
+    tech: ["React Three Fiber", "Three.js", "glTF / Meshopt", "Tailwind CSS", "Framer Motion"],
+    image: "/projects/nocta.webp",
+    github: "https://github.com/ayakhamaysa/nocta-vela",
+    live: "https://nocta-vela.vercel.app",
+  },
+  {
+    title: "ORIEL Heritage 40 — 3D Luxury Watch",
+    badge: "Personal project",
+    category: "Luxury · 3D",
+    size: "row",
+    description:
+      "A luxury watch built entirely in code: the case, dial and live ticking hands. On scroll the watch opens into exploded layers to show the movement inside. Customers pick case, dial and strap with prices that change per choice, and the order ends with the watch presented in a branded box. Bilingual English / Arabic.",
+    tech: ["React Three Fiber", "Three.js", "Procedural 3D", "Framer Motion", "RTL / i18n"],
+    image: "/projects/oriel.webp",
+    github: "https://github.com/ayakhamaysa/oriel-watch",
+    live: "https://oriel-watch-gamma.vercel.app",
+  },
+  {
+    title: "NUVO Wallet — 3D Fintech App Launch",
+    badge: "Personal project",
+    category: "Fintech · 3D",
+    size: "row",
+    description:
+      "A launch page for a mobile wallet app. A 3D phone with live, animated app screens and floating bank cards follows the scroll through sending money, spending insights, cards and security. Bilingual English / Arabic and responsive down to small phones.",
+    tech: ["React Three Fiber", "Three.js", "Canvas textures", "Framer Motion", "RTL / i18n"],
+    image: "/projects/nuvo.webp",
+    github: "https://github.com/ayakhamaysa/nuvo-wallet",
+    live: "https://nuvo-wallet.vercel.app",
+  },
+  {
     title: "EJT Perfume Store",
     badge: "Personal project",
     category: "E-commerce",
