@@ -77,14 +77,14 @@ export const projects = [
     github: "https://github.com/ayakhamaysa/apex-gym",
     live: "https://apex-six-jet.vercel.app",
   },
-  {
+   {
     title: "MASKAN — Real Estate Map",
     badge: "Personal project",
     category: "Real estate",
     size: "row",
     description:
-      "A bilingual English / Arabic website for Dubai homes. Price pins on an interactive map stay in sync with the listing cards, with filters, sorting, saved homes, a side-by-side comparison of up to 3 homes (including price per sq ft), WhatsApp and call buttons on every home, and light / dark mode.",
-    tech: ["React", "React Leaflet", "OpenStreetMap", "Tailwind CSS", "Dark mode"],
+      "A bilingual English / Arabic website for Dubai homes, written in strict TypeScript. Price pins on an interactive map stay in sync with the listing cards, with filters, sorting, saved homes, a side-by-side comparison of up to 3 homes (including price per sq ft), WhatsApp and call buttons on every home, and light / dark mode. A typed data model catches wrong or missing data before the site is built.",
+    tech: ["TypeScript", "React", "React Leaflet", "OpenStreetMap", "Tailwind CSS"],
     image: "/projects/maskan.webp",
     github: "https://github.com/ayakhamaysa/maskan-real-estate",
     live: "https://maskan-real-estate.vercel.app",
