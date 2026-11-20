@@ -64,38 +64,43 @@ export default function Hero() {
               <span className="absolute inset-0 rounded-full bg-emerald-500 animate-ping opacity-60" />
               <span className="relative w-2 h-2 rounded-full bg-emerald-500" />
             </span>
-            Available for remote work worldwide · GMT+2
+            Open to remote roles & freelance projects · GMT+2
           </p>
 
-          <p className="label text-gold-deep mt-9">Frontend Developer · React · 3D · AI</p>
-          <h1 className="font-serif text-6xl sm:text-7xl xl:text-[5.2rem] leading-[0.95] mt-4">Aya Khamaysa</h1>
-          <p className="font-serif italic text-2xl md:text-3xl text-gold-deep mt-5">"I build fast, animated websites that sell."</p>
+          <p className="label text-gold-deep mt-9">Aya Khamaysa · Frontend Developer</p>
+          {/* The promise first: what a company or a client gets */}
+          <h1 className="font-serif text-5xl sm:text-6xl xl:text-[4.4rem] leading-[1.02] mt-4">
+            Websites that look <em className="text-gold-deep whitespace-nowrap">world-class</em>, and sell.
+          </h1>
 
           <p className="text-muted text-lg leading-relaxed mt-6 max-w-xl">
-            Online stores, ordering systems, AI assistants and real-time 3D product pages, in Arabic and English, with clean code and motion
-            that feels premium.
+            I build product launches with real-time 3D, online stores, ordering systems and AI assistants in React and TypeScript, in Arabic
+            and English. <span className="text-ink">Fast on phones, polished to the last pixel.</span>
           </p>
 
-          <div className="flex flex-wrap items-center gap-6 mt-9">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-4 mt-9">
             <a href="#work" className="label bg-ink text-paper px-7 py-4 hover:bg-gold-deep transition-colors">
-              View selected work ↓
+              View my work ↓
             </a>
-            <a href="#contact" className="label hover:text-gold-deep transition-colors">
-              Contact me ↗
+            <a
+              href="#contact"
+              className="label border border-ink/25 px-7 py-[15px] hover:border-gold-deep hover:text-gold-deep transition-colors"
+            >
+              Start a project ↗
             </a>
           </div>
 
-          {/* Quick facts */}
-          <dl className="grid grid-cols-4 sm:flex sm:flex-wrap gap-x-4 sm:gap-x-8 gap-y-3 mt-10 pt-6 border-t border-ink/10 max-w-xl">
+          {/* Proof in numbers */}
+          <dl className="grid grid-cols-4 gap-x-4 sm:gap-x-8 mt-10 pt-6 border-t border-ink/10 max-w-xl">
             {[
               [projects.length, "Live projects"],
-              ["3D", "Three.js · R3F"],
-              ["AI", "Gemini assistants"],
-              ["TS", "TypeScript"],
+              ["12", "Industries"],
+              ["3D", "Product pages"],
+              ["AI", "Assistants"],
             ].map(([value, label]) => (
               <div key={label}>
-                <dt className="font-serif text-2xl sm:text-3xl">{value}</dt>
-                <dd className="label !text-[9px] sm:!text-[10px] !tracking-[0.12em] sm:!tracking-[0.22em] text-muted mt-1">{label}</dd>
+                <dt className="font-serif text-3xl sm:text-4xl">{value}</dt>
+                <dd className="label !text-[9px] sm:!text-[10px] !tracking-[0.14em] sm:!tracking-[0.2em] text-muted mt-1">{label}</dd>
               </div>
             ))}
           </dl>
