@@ -16,8 +16,8 @@ const steps = [
   },
   {
     title: "Build & Animate",
-    text: "Clean React and Tailwind components, subtle motion with Framer Motion and GSAP, and Supabase when data is needed.",
-    tools: "React · Framer Motion · GSAP",
+    text: "Clean React and Tailwind components, real-time 3D with Three.js, subtle motion with Framer Motion and GSAP, and Supabase or AI when the business needs them.",
+    tools: "React · TypeScript · Three.js · GSAP",
   },
   {
     title: "Polish & Launch",
