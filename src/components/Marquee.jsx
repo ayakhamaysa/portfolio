@@ -1,4 +1,4 @@
-const skills = ["React", "JavaScript", "Tailwind CSS", "Framer Motion", "GSAP & ScrollTrigger", "Supabase", "PostgreSQL", "Vercel", "RTL / i18n"];
+const skills = ["React", "TypeScript", "JavaScript", "Three.js", "React Three Fiber", "Gemini API", "Tailwind CSS", "Framer Motion", "GSAP & ScrollTrigger", "Supabase", "PostgreSQL", "Vercel", "RTL / i18n"];
 
 export default function Marquee() {
   // The list is shown twice, so when the first copy slides away the second takes its place
