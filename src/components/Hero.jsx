@@ -57,14 +57,14 @@ export default function Hero() {
       {/* Soft gold light behind the ring */}
       <div className="pointer-events-none absolute -right-40 top-10 w-[720px] h-[720px] rounded-full bg-[radial-gradient(closest-side,#e9dcc0,transparent)] opacity-70" />
 
-      <div className="relative max-w-7xl mx-auto px-5 pt-14 pb-16 md:pt-20 md:pb-24 grid gap-6 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.15fr)] items-center">
-        <motion.div initial={{ y: 20 }} animate={{ y: 0 }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}>
+      <div className="relative max-w-7xl mx-auto px-5 pt-14 pb-16 md:pt-20 md:pb-24 grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.15fr)] items-center">
+        <motion.div className="min-w-0" initial={{ y: 20 }} animate={{ y: 0 }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}>
           <p className="inline-flex items-center gap-2 bg-sand rounded-full px-4 py-2 text-xs text-muted">
             <span className="relative flex w-2 h-2">
               <span className="absolute inset-0 rounded-full bg-emerald-500 animate-ping opacity-60" />
               <span className="relative w-2 h-2 rounded-full bg-emerald-500" />
             </span>
-            Open to remote roles & freelance projects · GMT+2
+            Open to remote roles & freelance projects<span className="hidden sm:inline"> · GMT+2</span>
           </p>
 
           <p className="label text-gold-deep mt-9">Aya Khamaysa · Frontend Developer</p>
@@ -107,7 +107,7 @@ export default function Hero() {
         </motion.div>
 
         {/* The 3D ring of real projects */}
-        <div className="h-[300px] -mt-14 sm:mt-0 sm:h-[440px] lg:h-[580px] lg:-me-16">
+        <div className="relative w-full min-w-0 overflow-hidden h-[300px] -mt-14 sm:mt-0 sm:h-[440px] lg:h-[580px] lg:-me-16">
           {show3D ? (
             <Safe3D>
               <Suspense fallback={<div className="h-full grid place-items-center label text-muted animate-pulse">Loading work…</div>}>
